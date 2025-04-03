@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana's Portfolio</title>
+    
+    <!-- CSS Code inside the <style> tag -->
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            display: flex;
+            justify-content: space-between; /* Space between text and image */
+            align-items: center; /* Align text and image vertically */
+            background-color: #333;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Profile Image */
+        #profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover; /* Maintain image aspect ratio */
+        }
+
+        /* About Section */
+        #about {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        #about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Skills Section */
+        #skills {
+            background-color: #eeeeee;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #skills h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills li {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        #projects h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #projects .project {
+            margin-bottom: 20px;
+        }
+
+        /* Resume Section */
+        #resume {
+            background-color: #eeeeee;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #resume h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #resume a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #28a745;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 50px 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        #contact a {
+            text-decoration: none;
+            color: #28a745;
+            font-size: 1.2em;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column; /* Stack header items vertically on small screens */
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            #about h2, #skills h2, #projects h2, #resume h2, #contact h2 {
+                font-size: 2em;
+            }
+
+            #about p, #contact p {
+                font-size: 1.1em;
+            }
+
+            #skills li {
+                display: block;
+                margin: 10px auto;
+            }
+
+            #profile-image {
+                margin-top: 20px; /* Space between text and image in vertical mode */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>Bhavana</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+        <img id="profile-image" src="C:\Users\HP\OneDrive\Gambar\Saved Pictures\P4.jpg" alt="Bhavana">
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Bhavana, a passionate web developer with expertise in HTML, CSS, and JavaScript. I create beautiful and responsive websites that help businesses grow. My goal is to keep learning and building innovative solutions for the web.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal website to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Java - Purchasing medicines in online app</h3>
+            <p>An online website for purchasing medicines.</p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="https://drive.google.com/file/d/1B4cXhhzDJOyZiq4LupchFVOQGXDHofiv/view?usp=drivesdk" target="_blank">Download My Resume</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for collaborations, opportunities, or just to say hi!</p>
+        <p>Phone:9182786069</p>
+        <p>Email: <a href="mailto:dlakshmibhavana@gmail.com">dlakshmibhavana@gmail.com</a></p>
+    </section>
+
+</body>
+</html>
